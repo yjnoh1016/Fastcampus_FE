@@ -342,7 +342,7 @@ div {
 \- color(글자 색상)
 
 요소 내용(Text)의 글자 색상을 지정한다.
-정말 많은 입문자가 `font-color`, `text-color`로 실수를 한다만 그런 속성은 없다.
+정말 많은 입문자가 `font-color`, `text-color`로 실수를 하지만 그런 속성은 없다.
 
 ~~~CSS
 div {
