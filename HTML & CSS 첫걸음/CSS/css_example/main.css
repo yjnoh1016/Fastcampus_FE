@@ -2,4 +2,9 @@
     width: 300px;
     height: 200px;
     background: red;
+    margin: 10px;
+}
+
+.box2 {
+    padding: 20px;
 }
