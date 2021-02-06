@@ -66,7 +66,7 @@ HTML 문서에 포함된 모든 상대 URL들의 기준 URL를 설정.
 ### \<link />
 <hr>
 
-외부 리소스의 연결 및 현재 문서와의 관계를 명시.
+외부 리소스의 연결 및 현재 문서와의 관계를 명시.<br>
 (HTML, CSS, ICON 등 가져오기)
 
 |속성|의미|값|
@@ -80,7 +80,7 @@ HTML 문서에 포함된 모든 상대 URL들의 기준 URL를 설정.
 ### \<meta />
 <hr>
 
-기타 메타 데이터 요소(`<link />`, `<style>` 같은)로 나타낼 수 없는 메타데이터를 나타내기 위해 설정.
+기타 메타 데이터 요소(`<link />`, `<style>` 같은)로 나타낼 수 없는 메타데이터를 나타내기 위해 설정.<br>
 (검색엔진이나 브라우저에 정보 제공)
 
 |속성|의미|값|
@@ -106,4 +106,134 @@ HTML 문서에 포함된 모든 상대 URL들의 기준 URL를 설정.
 |:--:|:--:|:-:|
 |type|MIME 타입|`text/css`|
 
+<br>
 
+## 콘텐츠 구분
+<hr>
+
+<br>
+
+### \<h1>, \<h2>, \<h3>, \<h4>, \<h5>, \<h6>
+<hr>
+
+문서의 정보 계층을 구조화.<br>
+(Heading, 문서나 구분된 영역의 제목을 설정, 문서의 목차)
+
+- 숫자가 낮을수록 높은 단계(중요한)의 제목.
+
+~~~CSS
+h1, h2, h3, h4, h5, h6 { display: block; }
+~~~
+
+<br>
+
+### \<header>
+<hr>
+
+문서의 헤더를 설정.<br>
+(보통 로고, 제목, 검색 등을 포함)
+
+~~~CSS
+header { display: block; }
+~~~
+
+<br>
+
+### \<footer>
+<hr>
+
+문서의 푸터를 설정.<br>
+(보통 작성자, 저작권, 관련 문서 등을 포함)
+
+~~~CSS
+footer { display: block; }
+~~~
+
+<br>
+
+### \<main>
+<hr>
+
+문서의 주요 콘텐츠를 설정.
+
+- IE 지원 불가
+- 한 문서에 하나의 `<main>`요소만 포함 가능.
+
+~~~CSS
+main { display: block; }
+~~~
+
+<br>
+
+### \<article>
+<hr>
+
+독립적으로 구분되거나 재사용 가능한 영역을 설정.<br>
+(매거진/신문 기사, 블로그 등)
+
+- 일반적으로 `<h1>` ~ `<h6>`를 포함하여 식별.
+- 작성일자와 시간을 `<time>`의 `datetime` 속성으로 작성.
+
+~~~CSS
+article { display: block; }
+~~~
+
+<br>
+
+### \<section>
+<hr>
+
+문서의 일반적인 영역을 설정.
+
+- 일반적으로 `<h1>` ~ `<h6>`를 포함하여 식별.
+
+~~~CSS
+section { display: block; }
+~~~
+
+<br>
+
+### \<aside>
+<hr>
+
+문서의 별도 콘텐츠를 설정.<br>
+(보통 광고나 기타 링크 등의 사이드바(Side bar)를 설정)
+
+~~~CSS
+aside { display: block; }
+~~~
+
+<br>
+
+### \<nav>
+<hr>
+
+다른 페이지 링크를 제공하는 영역을 설정.<br>
+(Navigation, 보통 메뉴(Home, About, Contact), 목차, 색인 등을 설정)
+
+~~~CSS
+nav { display: block; }
+~~~
+
+<br>
+
+### \<address>
+<hr>
+
+`<body>`, `<article>`, `<footer>` 등에서 연락처 정보를 제공하기 위해 포함하여 사용.
+
+~~~CSS
+address { display: block; }
+~~~
+
+<br>
+
+### \<div>
+<hr>
+
+본질적으로 아무것도 나타내지 않는 콘텐츠 영역을 설정.<br>
+(Division, 꾸미는 목적을 사용)
+
+~~~CSS
+div { display: block; }
+~~~
