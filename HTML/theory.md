@@ -639,3 +639,40 @@ span { display: inline; }
 ~~~CSS
 br { display: inline; }
 ~~~
+
+<br>
+
+## 수정
+<hr>
+
+<br>
+
+### \<del>
+<hr>
+
+삭제된(변경된) 텍스트의 범위를 지정.
+
+|속성|의미|값|
+|:--:|:--:|:-:|
+|cite|변경을 설명하는 리소스의 URI|URI|
+|datetime|변경이 일어난 유요한 날짜 문자|Date|
+
+~~~CSS
+del { display: inline; }
+~~~
+
+<br>
+
+### \<ins>
+<hr>
+
+새로 추가된(변경된) 텍스트의 범위를 지정.
+
+|속성|의미|값|
+|:--:|:--:|:-:|
+|cite|변경을 설명하는 리소스의 URI|URI|
+|datetime|변경이 일어난 유요한 날짜 문자|Date|
+
+~~~CSS
+ins { display: inline; }
+~~~
