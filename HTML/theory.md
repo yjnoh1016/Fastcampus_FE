@@ -833,3 +833,43 @@ Canvas API이나 WebGL API를 사용하여 그래픽이나 애니메이션을 �
 ~~~CSS
 canvas { display: inline; }
 ~~~
+
+<br>
+
+## 스크립트
+<hr>
+
+<br>
+
+### \<script>
+<hr>
+
+스크립트 코드를 문서에 포함하거나 참조(외부 스크립트).
+
+|속성|의미|값|특징|
+|:--:|:--:|:-:|:--:|
+|async|스크립트의 비동기적(Asynchronously) 실행 여부|불린(Boolean)|`src` 속성 필수|
+|defer|문서 파싱(구문 분석) 후 작동 여부|불린(Boolean)|`src` 속성 필수|
+|src|참조할 외부 스크립트 URL|URL|포함된 스크립트 코드는 무시됨|
+|type|MIME 타입|`text/javascript`(기본값)||
+
+~~~CSS
+script { display: none; }
+~~~
+
+<br>
+
+### \<noscript>
+<hr>
+
+스크립트를 지원하지 않는 경우에 삽입할 HTML을 정의.
+
+~~~HTML
+<noscript>
+  <p>Your browser does not support JavaScript!</p>
+</noscript>
+~~~
+
+~~~CSS
+noscript { display: inline; }
+~~~
