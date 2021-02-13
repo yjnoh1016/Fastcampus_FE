@@ -4,7 +4,6 @@
 <a href="https://www.w3schools.com/tags/default.asp">W3Schools</a>
 
 ## 주요 범위
-<hr>
 
 <br>
 
@@ -38,7 +37,6 @@ body { display: block; }
 <br>
 
 ## 메타 데이터
-<hr>
 
 <br>
 
@@ -109,7 +107,6 @@ HTML 문서에 포함된 모든 상대 URL들의 기준 URL를 설정.
 <br>
 
 ## 콘텐츠 구분
-<hr>
 
 <br>
 
@@ -241,7 +238,6 @@ div { display: block; }
 <br>
 
 ## 문자 콘텐츠
-<hr>
 
 <br>
 
@@ -371,7 +367,6 @@ blockquote { display: block; }
 <br>
 
 ## 인라인 텍스트
-<hr>
 
 <br>
 
@@ -643,7 +638,6 @@ br { display: inline; }
 <br>
 
 ## 수정
-<hr>
 
 <br>
 
@@ -680,7 +674,6 @@ ins { display: inline; }
 <br>
 
 ## 멀티미디어
-<hr>
 
 <br>
 
@@ -790,7 +783,6 @@ figcation { display: inline; }
 <br>
 
 ## 내장 콘텐츠
-<hr>
 
 <br>
 
@@ -837,7 +829,6 @@ canvas { display: inline; }
 <br>
 
 ## 스크립트
-<hr>
 
 <br>
 
@@ -873,3 +864,5 @@ script { display: none; }
 ~~~CSS
 noscript { display: inline; }
 ~~~
+
+<br>
