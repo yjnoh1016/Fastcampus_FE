@@ -1043,3 +1043,41 @@ form { display: block; }
 |value|양식의 초기 값||||
 
 <br>
+
+### 데이터 종류(Type)의 값(Values)
+<hr>
+
+`type`속성에 입력할 수 있는 값의 목록.
+
+~~~HTML
+<input type="button" />
+<input type="checkbox" />
+<input type="file" />
+<input type="text" />
+~~~
+
+|값|데이터 종류|특징|
+|:-:|:------:|:--:|
+|button|일반 버튼|`<button>`처럼 사용|
+|checkbox|체크박스||	
+|color|색상|IE 지원 불가|
+|email|이메일||	
+|file|파일||	
+|hidden|보이지 않지만 전송할 양식|`value` 속성으로 값을 지정|
+|image|이미지 제출 버튼|`<img />`처럼 사용|
+|number|숫자||	
+|password|비밀|가려지는 양식|
+|radio|라디오 버튼|같은 `name` 속성 그룹 내 하나만 선택 가능|
+|range|범위 컨트롤|`min`, `max`, `step`, `value`(기본값) 속성 사용|
+|reset|초기화|해당 `<form>` 범위 내 모든 양식|
+|search|검색||	
+|submit|제출 버튼|해당 `<form>` 범위 내 고유한 양식|
+|tel|전화번호||	
+|text|일반 텍스트||	
+|url|절대 URL||
+
+~~~CSS
+input { display: inline-block; }
+~~~
+
+<br>
