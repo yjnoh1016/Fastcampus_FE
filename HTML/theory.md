@@ -1123,5 +1123,7 @@ label { display: inline; }
 |type|버튼의 타입|`button`, `reset`, `submit`||
 
 ~~~CSS
-button { display: inline-block; }
+button { display: inline-bloc
 ~~~
+
+<br>
