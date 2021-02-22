@@ -1194,3 +1194,34 @@ fieldset, legend { display: block; }
 |name|그룹의 이름||
 
 <br>
+
+### \<select>, \<datalist>, \<optgroup>, \<option>
+<hr>
+
+옵션(`<option>`, `<optgroup>`)의 선택 메뉴(`<select>`)나 자동완성(`<datalist>`)을 제공.
+
+~~~HTML
+<select>
+  <optgroup label="Coffee">
+    <option>Americano</option>
+    <option>Caffe Mocha</option>
+    <option label="Cappuccino" value="Cappuccino"></option>
+  </optgroup>
+  <optgroup label="Latte" disabled>
+    <option>Caffe Latte</option>
+    <option>Vanilla Latte</option>
+  </optgroup>
+  <optgroup label="Smoothie">
+    <option>Plain</option>
+    <option>Strawberry</option>
+    <option>Banana</option>
+    <option>Mango</option>
+  </optgroup>
+</select>
+~~~
+
+~~~CSS
+select { display: inline-block; }
+datalist { display: none; }
+optgroup, option { display: block; }
+~~~
