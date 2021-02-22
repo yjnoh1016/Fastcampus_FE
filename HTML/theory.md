@@ -1148,3 +1148,34 @@ button { display: inline-block; }
 ~~~CSS
 textarea { display: inline-block; }
 ~~~
+
+<br>
+
+### \<fieldset>, \<legend>
+<hr>
+
+같은 목적의 양식을 그룹화(`<fieldset>`)하여 제목(`<legend>`)을 지정.
+
+~~~HTML
+<form>
+  <fieldset>
+    <legend>Coffee Size</legend>
+    <label>
+        <input type="radio" name="size" value="tall" />
+        Tall
+    </label>
+    <label>
+        <input type="radio" name="size" value="grande" />
+        Grande
+    </label>
+    <label>
+        <input type="radio" name="size" value="venti" />
+        Venti
+    </label>
+  </fieldset>
+</form>
+~~~
+
+~~~CSS
+fieldset, legend { display: block; }
+~~~
