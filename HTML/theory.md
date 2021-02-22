@@ -1182,3 +1182,15 @@ fieldset, legend { display: block; }
 
 <br>
 
+#### \<fieldset>
+<hr>
+
+같은 목적의 양식을 그룹화.
+
+|속성|의미|값|
+|:--:|:--:|:-:|
+|disabled|그룹 내 모든 양식 요소를 비활성화|불린(Boolean)|
+|form|그룹이 속할 하나 이상의 `<form>`의 `<id>`속성 값||
+|name|그룹의 이름||
+
+<br>
