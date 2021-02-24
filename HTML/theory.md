@@ -1227,3 +1227,19 @@ optgroup, option { display: block; }
 ~~~
 
 <br>
+
+#### \<select>
+<hr>
+
+옵션을 선택하는 메뉴.
+
+|속성|의미|값|기본값|
+|:--:|:--:|:-:|:---:|
+|autocomplete|사용자가 이전에 입력한 값으로 자동 완성 기능을 사용할 것인지 여부|`on`, `off`	|`on`|	
+|disabled|선택 메뉴를 비활성화|불린(Boolean)||	
+|form|선택 메뉴가 속할 하나 이상의 `<form>`의 `id` 속성 값|||		
+|multiple|다중 선택 여부|불린(Boolean)||	
+|name|선택 메뉴의 이름|||		
+|size|한 번에 볼 수 있는 행의 개수|숫자(Number)|`0`(`1`과 같음)|
+
+<br>
