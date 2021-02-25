@@ -1243,3 +1243,25 @@ optgroup, option { display: block; }
 |size|한 번에 볼 수 있는 행의 개수|숫자(Number)|`0`(`1`과 같음)|
 
 <br>
+
+#### \<datalist>
+<hr>
+
+`<input>`에 미리 정의된 옵션을 지정하여 자동완성(Autocomplete) 기능을 제공하는 데 사용.
+
+- `<input>`의 list 속성 바인딩.
+- `<option>`을 포함하여 정의된 옵션을 지정
+
+~~~HTML
+<input type="text" list="fruits">
+
+<datalist id="fruits">
+  <option>Apple</option>
+  <option>Orange</option>
+  <option>Banana</option>
+  <option>Mango</option>
+  <option>Fineapple</option>
+</datalist>
+~~~
+
+<br>
