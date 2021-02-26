@@ -1265,3 +1265,16 @@ optgroup, option { display: block; }
 ~~~
 
 <br>
+
+#### \<optgroup>
+<hr>
+
+`<option>`을 그룹화.
+
+|속성|의미|값|
+|:--:|:--:|:-:|
+|label|(필수)옵션 그룹의 이름||
+|disabled|옵션 그룹을 비활성화|불린(Boolean)|
+
+<br>
+
