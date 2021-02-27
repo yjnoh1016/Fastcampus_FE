@@ -1313,3 +1313,8 @@ progress { display: inline-block; }
 ~~~
 
 <br>
+
+## 전역 속성(Global Attributes)
+
+모든 HTML 요소에서 공통적으로 사용 가능한 속성.
+
