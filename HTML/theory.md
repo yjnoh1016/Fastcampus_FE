@@ -1307,3 +1307,7 @@ optgroup, option { display: block; }
 ~~~HTML
 <progress value="70" max="100">70 %</progress>
 ~~~
+
+~~~CSS
+progress { display: inline-block; }
+~~~
