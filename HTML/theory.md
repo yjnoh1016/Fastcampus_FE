@@ -1303,3 +1303,7 @@ optgroup, option { display: block; }
 |:--:|:--:|:-:|:--:|
 |max|작업의 총량|숫자(Number)||	
 |value|작업의 진행량|숫자(Number)|`max` 속성을 생략할 경우 `0`~`1` 사이의 숫자여야 함|  
+
+~~~HTML
+<progress value="70" max="100">70 %</progress>
+~~~
