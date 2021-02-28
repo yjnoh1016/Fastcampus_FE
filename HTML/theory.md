@@ -1319,3 +1319,11 @@ progress { display: inline-block; }
 모든 HTML 요소에서 공통적으로 사용 가능한 속성.
 
 <br>
+
+### class
+<hr>
+
+공백으로 구분된 요소의 별칭을 지정. <br>
+CSS 혹은 JavaScript의 요소 선택기(CSS 선택자나 GetElementsByClassName, QuerySelectorAll 같은)를 통해서 요소를 선택하거나 접근.
+
+<br>
