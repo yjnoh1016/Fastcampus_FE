@@ -1327,3 +1327,11 @@ progress { display: inline-block; }
 CSS 혹은 JavaScript의 요소 선택기(CSS 선택자나 GetElementsByClassName, QuerySelectorAll 같은)를 통해서 요소를 선택하거나 접근.
 
 <br>
+
+### id
+<hr>
+
+문서에서 고유한 식별자(idenifier, ID)를 정의. <br>
+CSS 혹은 JavaScript의 요소 선택기(CSS 선택자나 GetElementsByClassName, QuerySelectorAll 같은)를 통해서 요소를 선택하거나 접근.
+
+<br>
