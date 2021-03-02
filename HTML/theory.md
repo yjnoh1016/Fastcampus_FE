@@ -1335,3 +1335,18 @@ CSS 혹은 JavaScript의 요소 선택기(CSS 선택자나 GetElementsByClassNam
 CSS 혹은 JavaScript의 요소 선택기(CSS 선택자나 GetElementsByClassName, QuerySelectorAll 같은)를 통해서 요소를 선택하거나 접근.
 
 <br>
+
+### style
+<hr>
+
+요소에 적용할 CSS를 선언.
+
+<br>
+
+### title
+<hr>
+
+요소의 정보(설명)을 지정.
+
+<br>
+
