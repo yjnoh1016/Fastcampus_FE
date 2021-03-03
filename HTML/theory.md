@@ -1350,3 +1350,35 @@ CSS 혹은 JavaScript의 요소 선택기(CSS 선택자나 GetElementsByClassNam
 
 <br>
 
+### lang
+<hr>
+
+요소의 언어(ISO 639-1)을 지정.
+
+~~~HTML
+<p lang="en">This paragraph is English</p>
+<p lang="ko">이 단락은 한글입니다.</p>
+<p lang="fr">Ce paragraphe est défini en français.</p>
+~~~
+
+<br>
+
+### data-*
+<hr>
+
+사용자 정의 데이터 속성을 지정.
+HTML에 JavaScript에서 이용할 수 있는 데이터(정보)를 지정하는 용도로 사용.
+
+~~~HTML
+<!-- data-custom-data-attributes -->
+<div id="me" data-my-name="Heropy" data-my-age="851">Heropy</div>
+~~~
+
+~~~JAVASCRIPT
+// dataset.customDataAttributes
+const $me = document.getElementById('me');
+console.log($me.dataset.myName); // "Heropy"
+console.log($me.dataset.myAge // "851"
+~~~
+
+<br>
