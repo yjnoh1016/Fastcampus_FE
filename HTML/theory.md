@@ -1382,3 +1382,26 @@ console.log($me.dataset.myAge // "851"
 ~~~
 
 <br>
+
+### draggable
+<hr>
+
+요소가 Drag and Drop API를 사용 가능한지 여부를 지정.
+
+~~~HTML
+<div draggable="true">The element to drag.</div>
+~~~
+
+<br>
+
+### hidden
+<hr>
+
+요소를 숨김.
+
+~~~HTML
+<form id="hidden-form" action="/form-action" hidden>
+  <!-- 숨겨진 양식들.. -->
+</form>
+<button form="hidden-form" type="submit">전송</button>
+~~~
