@@ -1405,3 +1405,25 @@ console.log($me.dataset.myAge // "851"
 </form>
 <button form="hidden-form" type="submit">전송</button>
 ~~~
+
+<br>
+
+### tabindex
+<hr>
+
+`Tab`키를 이용해 요소를 순차적으로 포커스 탐색할 순서를 지정.
+
+- 대화형 콘텐츠(Interactive Content)는 기본적으로 코드 순서대로 탭 순서가 지정됨.
+- 비대화형 콘텐츠에 `tabindex="0"`을 지정하여 대화형 콘텐츠와 같이 탭 순서를 사용.
+- `tabindex="-1"`을 통해 포커스는 가능하지만 탭 순서에서 제외 가능.
+- `tabindex="1"` 이상의 양수 값은 논리적 흐름을 방해하기 때문에 사용을 추천하지 않음.
+
+~~~HTML
+<h1 tabindex="0">Sign In</h1>
+<label>Username: <input type="text"></label>
+<label>Password: <input type="password"></label>
+<label>PS: <input type="text" tabindex="-1"></label>
+<input type="submit" value="Sign In">
+~~~
+
+<br>
