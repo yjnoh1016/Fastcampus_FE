@@ -1427,3 +1427,18 @@ console.log($me.dataset.myAge // "851"
 ~~~
 
 <br>
+
+## 생략한 요소
+
+<br>
+
+### \<template>
+<hr>
+
+렌더링 되지 않는 콘텐츠를 보유.
+
+- JavaScript를 사용해 렌더링.
+- 반복적으로 사용하는 콘텐츠에 활용.
+- IE 지원 불가
+
+<br>
