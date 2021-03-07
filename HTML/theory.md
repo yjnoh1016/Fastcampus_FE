@@ -1448,3 +1448,13 @@ console.log($me.dataset.myAge // "851"
 
 클라이언트 측 이미지 맵(`<map>`)과 클릭 가능한 영역(`<area>`)을 정의.<br>
 (`<img />`와 연결해 사용)
+
+<br>
+
+### \<picture>
+<hr>
+
+이미지를 삽입.<br>
+(`<img />`의 `srcset`, `sizes`로 대체 가능)
+
+<br>
