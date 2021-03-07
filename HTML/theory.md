@@ -1366,7 +1366,7 @@ CSS 혹은 JavaScript의 요소 선택기(CSS 선택자나 GetElementsByClassNam
 ### data-*
 <hr>
 
-사용자 정의 데이터 속성을 지정.
+사용자 정의 데이터 속성을 지정.<br>
 HTML에 JavaScript에서 이용할 수 있는 데이터(정보)를 지정하는 용도로 사용.
 
 ~~~HTML
@@ -1442,3 +1442,9 @@ console.log($me.dataset.myAge // "851"
 - IE 지원 불가
 
 <br>
+
+### \<map>, \<area>
+<hr>
+
+클라이언트 측 이미지 맵(`<map>`)과 클릭 가능한 영역(`<area>`)을 정의.<br>
+(`<img />`와 연결해 사용)
