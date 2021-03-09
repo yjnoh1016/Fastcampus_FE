@@ -1458,3 +1458,10 @@ console.log($me.dataset.myAge // "851"
 (`<img />`의 `srcset`, `sizes`로 대체 가능)
 
 <br>
+
+### \<source>
+<hr>
+
+브라우저가 선택 가능한 `<audio>`, `<video>`, `<picture>`등의 다중 미디어 리소스를 지정.
+
+<br>
