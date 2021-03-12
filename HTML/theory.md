@@ -1494,3 +1494,12 @@ console.log($me.dataset.myAge // "851"
 
 <br>
 
+## 생략한 속성 
+<hr>
+
+|사용 태그|속성|의미|값|특징|
+|:-----:|:--:|:--:|:-:|:--:|
+|`<link />`, `<a>`|hreflang|현재 페이지의 대체 언어(ISO 639-1)|`ko`, `en`…|<a href="https://moz.com/learn/seo/hreflang-tag">다른 언어 또는 지역별 여러 버전의 페이지가 있는 경우</a>|
+|`<ol>`|reversed|항목을 역순으로 설정||IE 지원 불가|
+|`<link>`, `<img />`, `<video>`, `<script>`|crossorigin|가져 오기가 CORS를 사용하여 수행되어야하는지 여부|`anonymous`, `use-credentials`||	
+|`<img />`|ismap|서버 측 이미지 맵으로 지정해 클릭하여 좌표를 쿼리스트링으로 서버에 전송할지 여부|불린(Boolean)|`<img />`가 유효한 `href` 속성을 가진 `<a>`의 하위 요소인 경우에만 허용|
