@@ -1503,3 +1503,7 @@ console.log($me.dataset.myAge // "851"
 |`<ol>`|reversed|항목을 역순으로 설정||IE 지원 불가|
 |`<link>`, `<img />`, `<video>`, `<script>`|crossorigin|가져 오기가 CORS를 사용하여 수행되어야하는지 여부|`anonymous`, `use-credentials`||	
 |`<img />`|ismap|서버 측 이미지 맵으로 지정해 클릭하여 좌표를 쿼리스트링으로 서버에 전송할지 여부|불린(Boolean)|`<img />`가 유효한 `href` 속성을 가진 `<a>`의 하위 요소인 경우에만 허용|
+|`<img/>`|usemap|클라이언트 측 이미지 맵으로 지정|`<map>`의 `#` + `name` 속성 값|`<a>`, `<button>`의 하위 요소인 경우 사용 불가|
+|`<form>`|accept-charset|서버가 받을 문자인코딩 방식|`UTF-8`, `EUC-KR`…| `UKNOWN`|
+|`<form>`|enctype|`method`속성이 `POST`일 경우, 서버로 전송하는 콘텐츠의 MIME 타입|||
+|`<input />`|accept|서버가 받을 파일 종류|파일 확장자(`.jpg`, `.png`..), MIME 타입, `audio/*`,  `video/*`, `image/*`|`type="file"`|
