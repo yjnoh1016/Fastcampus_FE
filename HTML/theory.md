@@ -1507,3 +1507,5 @@ console.log($me.dataset.myAge // "851"
 |`<form>`|accept-charset|서버가 받을 문자인코딩 방식|`UTF-8`, `EUC-KR`…| `UKNOWN`|
 |`<form>`|enctype|`method`속성이 `POST`일 경우, 서버로 전송하는 콘텐츠의 MIME 타입|||
 |`<input />`|accept|서버가 받을 파일 종류|파일 확장자(`.jpg`, `.png`..), MIME 타입, `audio/*`,  `video/*`, `image/*`|`type="file"`|
+|`<input />`|width|이미지의 가로 너비|숫자(Number)|`type="image"`|
+|`<input />`|height|이미지의 가로 너비|숫자(Number)|`type="image"`|
