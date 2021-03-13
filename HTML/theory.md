@@ -1509,3 +1509,4 @@ console.log($me.dataset.myAge // "851"
 |`<input />`|accept|서버가 받을 파일 종류|파일 확장자(`.jpg`, `.png`..), MIME 타입, `audio/*`,  `video/*`, `image/*`|`type="file"`|
 |`<input />`|width|이미지의 가로 너비|숫자(Number)|`type="image"`|
 |`<input />`|height|이미지의 가로 너비|숫자(Number)|`type="image"`|
+|`<input />`, `<button>`|formaction|양식을 제출할 때 양식 데이터를 보낼 위치|URL	|`type="submit"`, `type="image"`, `form`의 속성보다 우선|
