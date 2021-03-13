@@ -1510,3 +1510,4 @@ console.log($me.dataset.myAge // "851"
 |`<input />`|width|이미지의 가로 너비|숫자(Number)|`type="image"`|
 |`<input />`|height|이미지의 가로 너비|숫자(Number)|`type="image"`|
 |`<input />`, `<button>`|formaction|양식을 제출할 때 양식 데이터를 보낼 위치|URL	|`type="submit"`, `type="image"`, `form`의 속성보다 우선|
+|`<input />`, `<button>`|formenctype|양식 데이터를 서버로 보내기 전에 인코딩 할 방법을 지정|-|`	type="submit"`, `type="image"`, `form`의 속성보다 우선|
