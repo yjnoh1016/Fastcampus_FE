@@ -1513,3 +1513,4 @@ console.log($me.dataset.myAge // "851"
 |`<input />`, `<button>`|formenctype|양식 데이터를 서버로 보내기 전에 인코딩 할 방법을 지정|-|`	type="submit"`, `type="image"`, `form`의 속성보다 우선|
 |`<input />`, `<button>`|formmethod|양식 데이터를 보내는 방법|`GET`, `POST`|`type="submit"`, `type="image"`, `form`의 속성보다 우선|
 |`<input />`, `<button>`|formnovalidate|양식 데이터의 유효성을 검사하지 않도록 지정|불린(Boolean)|`type="submit"`, `type="image"`, `form`의 속성보다 우선|
+|`<input />`, `<button>`|formtarget||`_self`, `_blank`|`type="submit"`, `type="image"`, `form`의 속성보다 우선|
