@@ -1544,3 +1544,25 @@ console.log($me.dataset.myAge // "851"
 ~~~
 
 <br>
+
+### contenteditable
+<hr>
+
+요소의 사용자 편집 여부를 지정.
+
+~~~HTML
+<style>
+  p::before { content: "["; }
+  p::after { content: "]"; }
+</style>
+
+<blockquote contenteditable="true">
+  <p>Edit this content to add your own bracket.</p>
+</blockquote>
+~~~
+
+<br>
+
+```
+참고 문서 : https://heropy.blog/2019/05/26/html-elements/
+```
