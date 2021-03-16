@@ -1514,3 +1514,10 @@ console.log($me.dataset.myAge // "851"
 |`<input />`, `<button>`|formmethod|양식 데이터를 보내는 방법|`GET`, `POST`|`type="submit"`, `type="image"`, `form`의 속성보다 우선|
 |`<input />`, `<button>`|formnovalidate|양식 데이터의 유효성을 검사하지 않도록 지정|불린(Boolean)|`type="submit"`, `type="image"`, `form`의 속성보다 우선|
 |`<input />`, `<button>`|formtarget||`_self`, `_blank`|`type="submit"`, `type="image"`, `form`의 속성보다 우선|
+|`<input />`, `<textarea>`|minlength|입력 가능한 최소 문자 수|숫자(Number)|`type="text"`, `type="email"`, `type="password"`, `type="tel"`, `type="url"`|
+|`<input />`|pattern|양식의 값을 검사하는 정규표현식|정규표현식(RegExp)|`type="text"`, `type="search"`, `type="tel"`, `type="url"`, `type="email"`|
+|`<input />`, `<textarea>`, `<select>`|required|필수 여부|불린(Boolean)||	
+|`<input />`|size|양식의 가로 너비|숫자(Number, `20`)|평균 문자 너비를 기준|
+|`<input />`, `<textarea>`|spellcheck|맞춤법 및 문법 검사의 필요 여부|`true`, `false`||	
+|`<button>`|value|폼 데이터와 함께 전송되는 버튼의 초기값||IE 지원 불가|
+|`<textarea>`|cols|양식의 가로 너비|숫자(Number, `20`)|평균 문자 너비를 기준|
