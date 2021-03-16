@@ -1521,3 +1521,26 @@ console.log($me.dataset.myAge // "851"
 |`<input />`, `<textarea>`|spellcheck|맞춤법 및 문법 검사의 필요 여부|`true`, `false`||	
 |`<button>`|value|폼 데이터와 함께 전송되는 버튼의 초기값||IE 지원 불가|
 |`<textarea>`|cols|양식의 가로 너비|숫자(Number, `20`)|평균 문자 너비를 기준|
+
+<br>
+
+## 생략한 전역 속성
+
+<br>
+
+### accesskey
+<hr>
+
+요소의 키보드 단축키 힌트를 제공.
+
+- 다음의 이유 등으로 일반 목적의 웹사이트에서는 사용을 권장하지않음.
+  - 브라우저 키보드 단축키 혹은 보조기기의 기능과 충돌
+  - 특정 키보드의 존재하지 않는 키 사용
+  - 숫자 같은 논리적인 관계가 없는 키 지정
+  - `accesskey`의 존재를 모르는 사용자의 실수
+
+~~~HTML
+<a href="https://google.com" accesskey="G">Press 'Alt' + 'G' key on Chrome!</a>
+~~~
+
+<br>
