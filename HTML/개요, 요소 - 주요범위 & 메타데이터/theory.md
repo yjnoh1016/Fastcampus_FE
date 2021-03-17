@@ -28,7 +28,3 @@
 ```
 
 <br>
-
-```
-참고문서 - https://heropy.blog/2019/04/24/html-css-starter/
-```
